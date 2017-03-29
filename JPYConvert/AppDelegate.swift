@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //gSettingDataManager.rate = 10
+//        gSettingDataManager.parserDelegate =
+//            self.window?.rootViewController as! XMLParserDelegate?
+//        
+//        gSettingDataManager.getExchangeRateFromNet()
         return true
     }
 

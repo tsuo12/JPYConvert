@@ -12,6 +12,7 @@
 		13ED31B61E87D850006F4C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ED31B41E87D850006F4C32 /* Main.storyboard */; };
 		13ED31B81E87D850006F4C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ED31B71E87D850006F4C32 /* Assets.xcassets */; };
 		13ED31BB1E87D850006F4C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ED31B91E87D850006F4C32 /* LaunchScreen.storyboard */; };
+		13ED31C31E87E3CA006F4C32 /* SettingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED31C21E87E3CA006F4C32 /* SettingDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13ED31B71E87D850006F4C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13ED31BA1E87D850006F4C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13ED31BC1E87D850006F4C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13ED31C21E87E3CA006F4C32 /* SettingDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				13ED31B01E87D850006F4C32 /* AppDelegate.swift */,
 				13ED31B21E87D850006F4C32 /* ViewController.swift */,
+				13ED31C21E87E3CA006F4C32 /* SettingDataManager.swift */,
 				13ED31B41E87D850006F4C32 /* Main.storyboard */,
 				13ED31B71E87D850006F4C32 /* Assets.xcassets */,
 				13ED31B91E87D850006F4C32 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					13ED31AC1E87D850006F4C32 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LL4V4R6X2N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ED31B31E87D850006F4C32 /* ViewController.swift in Sources */,
+				13ED31C31E87E3CA006F4C32 /* SettingDataManager.swift in Sources */,
 				13ED31B11E87D850006F4C32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LL4V4R6X2N;
 				INFOPLIST_FILE = JPYConvert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuck.JPYConvert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LL4V4R6X2N;
 				INFOPLIST_FILE = JPYConvert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuck.JPYConvert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +306,7 @@
 				13ED31C11E87D850006F4C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
